@@ -1,0 +1,364 @@
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family:Inter;
+}
+
+:root {
+        --primary-color: #10B981;
+        --secondary-color: #047857;
+        --third-color: #D1FAE5;
+        --fourth-color: #1F2937;
+}
+
+header {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* background-color: aqua; */
+        height: 60px;
+        width: 100vw;
+        text-wrap: nowrap;
+        background-color: #F8F9FF;
+        position: fixed;
+        z-index:1;
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+
+
+
+}
+
+
+header h2 {
+        left: 150px;
+        position: relative;
+        color: #006B48;
+        font-family: Inter;
+        font-weight: 700;
+}
+
+nav ul li {
+        display: inline-block;
+        padding: 10px 8px;
+        /* right:100px; */
+        position: relative;
+        left: 50px;
+
+}
+
+nav ul a {
+        text-decoration: none;
+        font-family: Inter;
+        color: var(--fourth-color);
+        font-weight: 500;
+}
+
+#searchbox {
+        position: relative;
+        left: 50px;
+        padding: 5px 10px;
+        border-radius: 5px;
+
+}
+
+
+header svg {
+        position: relative;
+        right: 100px;
+}
+
+a:hover {
+
+        border-bottom: 3px solid #006B48;
+}
+#sec17{
+        display: flex;
+        
+        height: 600px;
+        background-color: #EBF0FB;
+        padding: 170px 100px;
+
+}
+
+#hero-section1{
+position: relative;
+right:30px;
+}
+#h2{
+ font-size:40px ;
+}
+#p1 {
+        word-spacing: 5px;
+        top: 20px;
+        position: relative;
+        font-weight: 500;
+        font-size: 20px;
+        width:500px;
+
+}
+#button1{
+        padding: 15px 25px;
+        position: relative;
+        top:50px;
+        border:none;
+        background-color: var(--primary-color);
+        border-radius: 7px;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+        left:20px
+}
+#button1:hover{background-color: var(--secondary-color);}
+
+
+/* 
+
+main section h2 {
+        font-size: 40px;
+}
+
+main section p {
+        word-spacing: 5px;
+        top: 25px;
+        position: relative;
+        font-weight: 500;
+
+}
+
+main section button {
+        top: 50px;
+        position: relative;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 3px;
+        background-color: var(--primary-color);
+        color: white;
+        border-radius: 8px;
+        font-weight: 600;
+        word-spacing: 1px;
+        font-size: 15px;
+}
+
+main section button:hover {
+        background-color: var(--secondary-color);
+} */
+
+#rghthero {
+        position: relative;
+        left: 100px;
+
+}
+#sec2{
+background-color: #F8F9FF;
+padding: 0px 10px;
+
+}
+#sec2 h2{
+        position: relative;
+        font-size: 30px;
+        left:60px;
+        top:20px;
+        display: inline-block;
+}
+#sec2 h2:hover{
+                border-bottom: 3px solid #006B48;
+}
+#section2{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+
+        height:200px;
+}
+.icons{
+        border: 2px solid #10B981;
+        height:140px;
+        width:200px;
+       position: relative;
+       flex-direction: column;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 25px;
+       border-radius: 7px;
+       gap:5px;
+       top:20px;
+       background-color:whitesmoke;
+       font-size: 20px;
+
+      
+}
+#sec3 h3{
+        position: relative;
+font-size: 30px;
+padding: 15px 0px 20px 20px;
+ 
+}
+/* #sec3 h3:hover{                border-bottom: 3px solid #006B48;
+} */
+
+body{
+        height: 1000px;
+        
+}
+
+#part1{
+        display: flex;
+        gap:70px;
+        padding: 0px 20px;
+      margin-left: 50px;
+}        
+#part2{
+        display: flex;
+         margin-top: 50px;
+        gap:70px;
+        padding: 0px 20px;
+      margin-left: 50px;
+}
+#sec3{
+margin-top: 50px;
+padding-left: 40px;
+}
+.img{
+        border: 4px solid var(--primary-color);
+        height: 300px;
+        width: 250px;
+position: relative;
+display:flex ;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 8px;
+padding: 0px 5px;
+
+
+
+}
+.img:hover{
+        border: 4px solid var(--secondary-color);
+}
+#sec3 h5{
+        font-size: 20px;
+        position: relative;
+        right:45px;
+        top:5px;
+        font-weight: 400;
+}
+#sec3 p{
+         font-size: 20px;
+        position: relative;
+        right:70px;
+        top:10px;
+        font-weight: 400;
+
+}
+#sec3 h4{
+            font-size: 25px;
+        position: relative;
+        right:70px;
+        top:15px;
+        font-weight: 500;
+        color: #008389;
+
+}
+
+#partt1{
+        display: flex;
+        justify-content:space-between ;
+       
+        padding-left: 50px;
+        flex-direction: row;
+        text-align: center;
+}
+#sec4 svg{
+       
+position: relative;
+right:5px;
+
+
+}
+#sec4{
+        height:250px;
+        background-color: #F8F9FF;
+        padding-top: 70px;
+        margin-top: 50px;
+}
+
+#sec4 h5 {
+        font-size: 20px;
+        position: relative;
+        top:10px;
+}
+#sec4 p{
+        position: relative;
+        top:15px;
+}
+#part22{
+        display: flex;
+        flex-direction: column;
+        background-color: #006C49;
+        height: 250px;
+        justify-content:center ;
+        align-items: center;
+        
+}
+#part22 h2{
+        font-size: 40px;
+        color: #F8F9FF;
+}
+#part22 p{
+        font-size: 20px;
+        position: relative;
+        top:10px;
+        font-weight: 500;
+        color: #EFF4FF;
+}
+#part22 button{
+        position: relative;
+        top:30px;
+        padding:15px 25px;
+        border-radius: 8px;
+        border: none;
+        color:#006B48;
+        font-weight:  500; 
+        font-size: 15px;
+}
+footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: #DEE9FC;
+        height: 300px;
+}
+footer h2{
+        font-size: 35px;
+}
+footer p{
+        font-size: 20px;
+position: relative;
+top:5px;
+}
+#inputboc{
+        margin-top: 30px;
+}
+#inputboc input{
+        padding: 15px 40px 15px 10px;
+        border:none;
+        border-radius: 8px;
+}
+#inputboc button{
+        padding: 15px 20px;
+        border:none;
+        border-radius:8px ;
+        background-color:var(--primary-color) ;
+        color:white;
+        font-size: 15px;
+}
+#last{
+font-size: 10px;
+position: relative;
+top:20px
+}
